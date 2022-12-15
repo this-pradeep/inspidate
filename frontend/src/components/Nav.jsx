@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../images/inspidate.svg';
 import { Button } from "@material-tailwind/react";
+import { NavLink } from 'react-router-dom';
 const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
@@ -69,15 +70,9 @@ const Nav = () => {
             </li> */}
             <li>
             <div className='flex items-center space-x-8 justify-start'>
-                <a
-                    href="/"
-                    aria-label="Inspidate"
-                    title="Inspidate"
-                    className="inline-flex"
-                >
-                    
+                <NavLink to="/login" className="inline-flex">  
                    Log In
-                </a>
+                </NavLink>
                 <Button className='inline-flex space-x-2 font-normal  items-center px-3 tracking-normal text-sm py-2 rounded-[4px] capitalize justify-around' >
                     <span>
                         Get Started 
