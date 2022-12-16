@@ -7,14 +7,17 @@ import SignupPage from './pages/auth/SignupPage';
 import ForgotPasswordPage from './pages/auth/ForgotPassordPage';
 import ResetPasswordLinkSentPage from './pages/auth/ResetPasswordLinkPage';
 import ResetForgotPasswordPage from './pages/auth/ResetForgotPasswordPage';
+import MenteeCompleteProfilePage from './pages/profiles/MenteeCompleteProfilePage';
+import ErrorPage from './pages/ErrorPage';
 
 function App() {
   return (
     <>
     <Routes>
+      <Route path="*" element={<ErrorPage />} />
         <Route element={<Layout />}>
           <Route path="/" element={<Homepage />} />
-          <Route path="*" element={<LoginPage />} />
+          <Route path="/menteeCompleteProfile" element={<MenteeCompleteProfilePage />} />
           {/* <Route
             path="/protected"
             element={

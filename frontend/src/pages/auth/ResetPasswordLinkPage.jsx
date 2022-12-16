@@ -19,7 +19,7 @@ const ResetPasswordLinkSentPage = () => {
             <div className='space-y-3 '>
               <h1 className='text-3xl font-semibold '>Reset Password Link Sent</h1>
               <p className='text-lg font-normal text-gray-800'>We've sent instructions to stellinadoe@gmail.com
-If you didn't get the email, ask to resend the instructions.</p>
+              If you didn't get the email, ask to resend the instructions.</p>
               <p className='text-lg font-normal text-gray-800'>Click on the confirmation link in the email to activate your account.If you don't see this email you can 
               check your junk mail folder</p>
             </div>

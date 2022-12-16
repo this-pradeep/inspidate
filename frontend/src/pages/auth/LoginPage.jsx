@@ -11,7 +11,6 @@ const LoginPage = () => {
         <div className="hidden bg-cover p-10  overflow-hidden lg:block lg:w-3/5">
            <img src={coverLogin} className="w-full rounded-[40px] h-full object-cover object-top" alt="" />
         </div>
-
         <div className="flex space-y-6 flex-col items-start w-full  p-10  lg:w-2/5">
             <div className='mt-10'>
                 <img src={logo} alt="" />
@@ -46,7 +45,7 @@ const LoginPage = () => {
                     <img src={ linkedin} className="h-6 w-6" alt="" />
                     <span> Continue with linkedin</span>
                   </Button>
-                  <p className='text-center'>Already have an account ?   <NavLink to="/login" className="font-medium">  
+                  <p className='text-center'>Already have an account? <NavLink to="/login" className="font-medium">  
                    Log In
                 </NavLink></p>
               </form>

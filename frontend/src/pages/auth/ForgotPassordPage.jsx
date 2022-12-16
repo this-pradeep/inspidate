@@ -1,9 +1,7 @@
 import React from 'react'
-import { Button, Checkbox } from "@material-tailwind/react";
+import { Button } from "@material-tailwind/react";
 import coverLogin from '../../images/loginCover.png'
 import logo from '../../images/inspidate.svg'
-import linkedin from '../../images/linkedin.svg'
-import { NavLink } from 'react-router-dom';
 const ForgotPassordPage = () => {
   return (
     <div className="bg-white">
